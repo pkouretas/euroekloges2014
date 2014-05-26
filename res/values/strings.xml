@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ευρωεκλογές 2014</string>
+    <string name="action_settings">Settings</string>
+    <string name="goto_voting_page">Καταχώριση ψηφοδελτίων</string>
+	<string name="results_for_political_parties">Συγκεντρωτικά αποτελέσματα Συνδυασμών</string>
+	<string name="results_for_candidates">Συγκεντρωτικά αποτελέσματα Υποψηφίων</string>
+	<string name="results_per_political_party">Αποτελέσματα ανά συνδυασμό</string>
+	<string name="results_per_candidate">Αποτελέσματα ανά υποψήφιο</string>
+	<string name="display_ballots">Παρουσίαση ψηφοδελτίων</string>
+</resources>

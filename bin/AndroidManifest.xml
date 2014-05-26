@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kouretas.ekloges14"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="com.kouretas.ekloges14.model.Ekloges14APP">
+        
+        <activity
+            android:name="com.kouretas.ekloges14.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.kouretas.ekloges14.VoteParty"
+            android:label="ψηφίζω Συνδυασμό">
+        </activity>
+        <activity 
+            android:name="com.kouretas.ekloges14.VoteCandidates"
+            android:label="ψηφίζω Υποψηφίους">
+        </activity>
+        <activity 
+            android:name="com.kouretas.ekloges14.ResultsCandidates"
+            android:label="αποτελέσματα Υποψηφίων">
+        </activity>
+        <activity 
+            android:name="com.kouretas.ekloges14.ResultsParties"
+            android:label="αποτελέσματα Συνδυασμών">
+        </activity>
+        <activity 
+            android:name="com.kouretas.ekloges14.DisplayBallots"
+            android:label="λίστα έγκυρων Ψηφοδελτίων">
+        </activity>
+           <activity 
+            android:name="com.kouretas.ekloges14.ResultsChooseParty"
+            android:label="σταυροδοσία συνδυασμού:">
+        </activity>
+        
+        </application>
+
+</manifest>

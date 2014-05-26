@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kouretas.ekloges14.MainActivity"
+    tools:ignore="MergeRootFrame" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    <Button 
+        style="@style/NormalButton"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/goto_voting_page"
+        android:background="@color/easy_yellow"
+        android:onClick="gotoVoteParty" />
+    
+    <Button 
+        style="@style/NormalButton"
+        android:text="@string/results_for_political_parties"
+        android:background="@color/easy_blue"
+        android:onClick="seeResultsParties"/>
+    
+    <Button 
+        style="@style/NormalButton"
+        android:text="@string/results_for_candidates"
+        android:background="@color/easy_red"
+        android:onClick="seeResultsCandidates"/>
+    
+    <Button 
+        style="@style/NormalButton"
+        android:text="@string/display_ballots"
+        android:background="@color/easy_yellow"
+        android:onClick="seeBallots"/>
+
+	</LinearLayout>
+</FrameLayout>

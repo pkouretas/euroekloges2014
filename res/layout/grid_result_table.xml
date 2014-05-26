@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/grid_result_table_header"
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:background="@drawable/border_1dip" 
+   		android:text="ONOMA SYNDYASMOU/YPOPSIFIOU" 
+   		android:padding="10dp"/>
+    
+    <TableLayout 
+        android:id="@+id/ballot_id_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:paddingLeft="2dp"
+        android:background="@color/easy_green">
+    	
+    </TableLayout>
+
+</LinearLayout>
